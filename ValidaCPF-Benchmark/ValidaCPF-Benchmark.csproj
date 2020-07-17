@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ValidaCPF_Benchmark</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Caelum.Stella.CSharp" Version="1.4.7" />
+    <PackageReference Include="Cpf" Version="2.1.0" />
+    <PackageReference Include="CPFCNPJ" Version="2.0.3" />
+    <PackageReference Include="Dlp.Framework.dll" Version="1.0.7" />
+    <PackageReference Include="Maoli" Version="0.4.1" />
+    <PackageReference Include="MyConvert" Version="1.0.1.6" />
+    <PackageReference Include="Scorpion.CpfAnaliser" Version="1.0.6" />
+    <PackageReference Include="Valida.CPF.CNPJ" Version="1.0.0" />
+    <PackageReference Include="validationCpf" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
